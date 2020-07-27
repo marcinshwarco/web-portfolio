@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Hammersmith+One&display=swap');
+
+* {box-sizing: border-box;}
+body {background-color: #eae4e4;}
+	a.nav-link {color: white;}
+.nav-tabs .nav-link.active, a.nav-link:hover, .nav-link.active {text-decoration: underline;color:white;}	
+h1, a.nav-link {font-family: 'Hammersmith One', sans-serif;}
+h1 {font-size: 4.6rem;}
+#min-height-container {min-height: calc(100vh - 145px - 145px);}
+.main-header { padding-top: 40px;}
+.responsive {width: 90%; }
+.responsive2 {width: 100%; }
+footer {height:145px; text-align: center; padding-top:40px;}
+#main-image {padding-top: 10px;}
+#centered {text-align: center;}
+#wrapper {max-width: 1024px; margin: 0 auto; padding-left:10px; padding-right:10px;}
+.tab-pane {max-height: 180px; min-height: 180px; overflow: auto;}
+.nav-link.active,  .nav-tabs .nav-link  { border-style: none;}
+.nav-tabs .nav-link   {width:33.33%; overflow-wrap: break-word; }
+.tab-pane {padding:5px; }
+#nav-home-tab{background-color: #f29724;}
+#nav-home {background-color: #D1CBCB;}
+#nav-profile-tab { background-color:#2b6a6c;}
+#nav-profile {background-color: #D1CBCB;}
+#nav-contact-tab { background-color:#404040;}
+#nav-contact {background-color: #D1CBCB;}
